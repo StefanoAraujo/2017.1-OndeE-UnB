@@ -2,9 +2,9 @@ var buildingLayer = L.geoJSON('', {
   onEachFeature: function onEachBuilding(feature, layer) {
     layer.setStyle({
       fillColor: '#6a7c83',
-      fillOpacity: 1,
+      fillOpacity: 0.5,
       color: '#6a7c83',
-      weight: 3
+      weight: 1.5
     });
     // Trigger when user click on a building
     layer.on('click', function() {
