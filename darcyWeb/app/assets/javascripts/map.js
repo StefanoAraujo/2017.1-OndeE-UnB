@@ -17,4 +17,3 @@
 
 //= require map/filter
 //= require map/tutorial
-swal("Oops...", "Something went wrong!", "error");
