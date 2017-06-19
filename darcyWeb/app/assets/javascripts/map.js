@@ -1,3 +1,4 @@
+//= require sweetalert2
 // load leaflet libraries
 //= require leaflet/map
 //= require leaflet/context-menu
@@ -16,3 +17,4 @@
 
 //= require map/filter
 //= require map/tutorial
+swal("Oops...", "Something went wrong!", "error");
